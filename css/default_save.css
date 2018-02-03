@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Default Styling for Bra-te-da.com */
+
+body {
+		background-image:url(../images/bg.jpg);
+		background-repeat:no-repeat;
+		background-position:center;
+		width: 1024px;
+		height: 682px;
+		margin: 0px auto 0px auto;
+}
+
+#wrapper {
+		position: inherit;
+		width: 1024px;
+		height: 682px;
+		text-align:center;
+		margin: 0px auto 0px auto;
+}
+
+#topnav {
+/*	position: absolute; */
+	position: relative;
+	width: 1024px;
+	height: 30px;
+	top: 50px;
+}
+
+#content {
+	position:	absolute;
+	width: 1024px;
+	height: 420px;
+	top: 80px;
+	color: #ffffff;
+	text-align:left;
+}
+
+#botnav {
+	position: absolute;
+	width: 1024px;
+	height: 23px;
+	top: 500px;
+}
+
+#brwin {
+	position: absolute;
+	width: 300px;
+	height: 470px;
+}
+
+.footer {
+	color: #736C66;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	letter-spacing: 1.2px;
+}
+
+.footer a {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+.vendors {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight:bold;
+}
+
+.vendors a, a:visited {
+		color: #ffffff;
+		text-decoration:none;
+}
+
+.vendors a:hover {
+		color:#DD111A;
+}
+
+.about {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:bold;
+}
+
+.contact {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:bold;
+}
+
+.contact a, visited {
+		color: #ffffff;
+		text-decoration: none;
+}
+
+.contact a:hover {
+	color: #DD111A;
+}
+
+.brafit {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight:bold;
+}
+
+.brtext {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:bold;
+	color: #ffffff;
+}
